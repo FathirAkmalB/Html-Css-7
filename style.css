@@ -1,4 +1,8 @@
-@font-face {
+    :root{
+        --warna-text: #6e49ea;
+    }
+    
+    @font-face {
     font-family: quicksand ;
     src: url(quicksand-v30-latin-regular.woff);
 }
@@ -23,4 +27,44 @@ nav{
 }
 
 
+.bar{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{margin-left: -150px;}
+
+a{
+    text-decoration: none;
+    color: #f6f6f6;
+    padding: 15px;
+}
+a:hover{
+    background-color: #6e49ea;
+    /* border-radius: 20px; */
+}
+
+.hero{
+    text-align: center;
+    /* background-color: #303330; */
+    width: 45%;
+    margin: 30px auto;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h5{
+    line-height: 25px;
+}
 
